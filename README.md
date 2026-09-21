@@ -17,5 +17,7 @@ Upload the contents of this folder to a repository root, then publish it with Gi
 | Washing machine installation | `/washing-machine-installation-pondicherry/` |
 | Refrigerator repair | `/refrigerator-repair-pondicherry/` |
 | Microwave repair | `/microwave-repair-pondicherry/` |
+| AC repair (Google Ads) | `/ac-repair-pondicherry-ads/` |
+| AC repair Thank You | `/ac-repair-pondicherry-thank-you/` |
 
 The contact details, reviews, prices and service claims are sample content. Replace them with verified business information before using this as a live commercial website.

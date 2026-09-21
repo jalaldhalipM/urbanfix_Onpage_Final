@@ -1,0 +1,801 @@
+/* UrbanFix - Google Ads Dedicated Landing Page Styles */
+
+/* Header variant for ads landing page - focused, no distracting navigation */
+.header--ads {
+  justify-content: space-between;
+  padding: 14px 7%;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(20, 38, 59, 0.05);
+}
+
+.header-ads-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-phone-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 800;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.header-phone-link:hover {
+  color: var(--orange-dark);
+}
+
+.header-phone-icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--orange);
+}
+
+/* Hero Section for Ads */
+.hero--ads {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 3rem;
+  align-items: start;
+  padding: 3.5rem 7%;
+  background: linear-gradient(135deg, #fff8ee 0%, #f4f8fb 100%);
+  position: relative;
+}
+
+.hero-ads-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(221, 90, 45, 0.1);
+  color: var(--orange-dark);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(221, 90, 45, 0.2);
+}
+
+.hero-trust-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.hero-trust-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 1.02rem;
+}
+
+.hero-trust-item svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--orange);
+  flex-shrink: 0;
+}
+
+/* Offer Banner in Hero */
+.hero-offer-card {
+  background: #ffffff;
+  border: 2px dashed var(--orange);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 4px 15px rgba(221, 90, 45, 0.08);
+}
+
+.hero-offer-tag {
+  background: var(--orange);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 900;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.hero-offer-text strong {
+  display: block;
+  font-size: 1.15rem;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.hero-offer-text span {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+/* Hero Form Container */
+.hero-form-card {
+  background: var(--ink);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(20, 38, 59, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.hero-form-card h2 {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin: 0 0 0.4rem;
+}
+
+.hero-form-card p.subhead {
+  color: #b7c4d2;
+  font-size: 0.92rem;
+  margin: 0 0 1.2rem;
+}
+
+.hero-form-card .form-group {
+  margin-bottom: 1rem;
+}
+
+.hero-form-card label {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  color: #e2e8f0;
+}
+
+.hero-form-card input,
+.hero-form-card select {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid #2d435c;
+  border-radius: 6px;
+  background: #1a2f47;
+  color: #ffffff;
+  font: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.hero-form-card input:focus,
+.hero-form-card select:focus {
+  outline: none;
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px rgba(221, 90, 45, 0.3);
+}
+
+.hero-form-card input::placeholder {
+  color: #8da1b5;
+}
+
+.hero-form-card select option {
+  background: var(--ink);
+  color: #ffffff;
+}
+
+.hero-form-card .privacy-note {
+  font-size: 0.78rem;
+  color: #8da1b5;
+  margin-top: 0.8rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* Trust Bar / Counter section */
+.trust-bar {
+  background: var(--ink);
+  color: white;
+  padding: 1.8rem 7%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.trust-bar-header {
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fac867;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.trust-item {
+  padding: 0.8rem 0.5rem;
+}
+
+.trust-rating {
+  color: #ffb800;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.trust-number {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.trust-label {
+  font-size: 0.88rem;
+  color: #b7c4d2;
+  font-weight: 600;
+  margin-top: 0.2rem;
+}
+
+/* Prominent Offer Section */
+.offer-section {
+  background: linear-gradient(135deg, #fff8ee 0%, #fff 100%);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 4rem 7%;
+}
+
+.offer-box {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid var(--orange);
+  border-radius: 16px;
+  padding: 2.5rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  box-shadow: 0 12px 30px rgba(221, 90, 45, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.offer-box::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  background: rgba(221, 90, 45, 0.06);
+  border-radius: 50%;
+}
+
+.offer-info h3 {
+  font-size: 1.8rem;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+}
+
+.offer-badge-large {
+  display: inline-block;
+  background: var(--orange);
+  color: white;
+  font-weight: 900;
+  font-size: 1.4rem;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.offer-info p {
+  color: var(--muted);
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+/* Icon Grid for Problems & Why Choose */
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.problem-card {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.4rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.problem-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(20, 38, 59, 0.08);
+  border-color: var(--orange);
+}
+
+.problem-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--cream);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: var(--orange-dark);
+}
+
+.problem-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.problem-card h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+
+.problem-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
+  flex-grow: 1;
+}
+
+.problem-card .action-link {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--orange-dark);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* Why Choose Grid */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.why-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.why-card .why-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.why-card .why-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--mint);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b7a5a;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.why-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
+.why-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* How It Works 3-Step Section */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2.5rem;
+  position: relative;
+}
+
+.step-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.step-number {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(221, 90, 45, 0.25);
+  line-height: 1;
+  margin-bottom: 0.8rem;
+}
+
+.step-card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+}
+
+.step-card p {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Reviews Section */
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.review-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-stars {
+  color: #ffb800;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.review-card blockquote {
+  margin: 0 0 1.2rem;
+  font-size: 0.95rem;
+  color: var(--ink);
+  line-height: 1.5;
+  font-style: italic;
+  flex-grow: 1;
+}
+
+.review-author {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.review-location {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.demo-note-inline {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-left: 0.5rem;
+}
+
+/* Local Service Area */
+.area-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.area-tag {
+  background: white;
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* Final Conversion CTA Banner */
+.final-cta {
+  background: var(--ink);
+  color: white;
+  padding: 4rem 7%;
+  text-align: center;
+  border-radius: 16px;
+  margin: 3rem 7%;
+}
+
+.final-cta h2 {
+  color: white;
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  margin: 0 0 0.8rem;
+}
+
+.final-cta p {
+  color: #b7c4d2;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.final-cta .actions {
+  justify-content: center;
+}
+
+/* Sticky Mobile Bottom Bar */
+.sticky-mobile-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-top: 1px solid var(--line);
+  padding: 0.65rem 1rem;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.12);
+  z-index: 999;
+  gap: 0.75rem;
+}
+
+.sticky-mobile-bar a {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.sticky-btn-call {
+  background: var(--ink);
+  color: white !important;
+}
+
+.sticky-btn-book {
+  background: var(--orange);
+  color: white !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .problem-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 780px) {
+  .hero--ads {
+    grid-template-columns: 1fr;
+    padding: 2.5rem 5%;
+    gap: 2rem;
+  }
+  
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offer-box {
+    flex-direction: column;
+    padding: 1.8rem 1.5rem;
+    text-align: center;
+  }
+
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .final-cta {
+    margin: 2rem 5%;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .sticky-mobile-bar {
+    display: flex;
+  }
+
+  body {
+    padding-bottom: 60px; /* offset for sticky bar */
+  }
+}
+
+/* Thank You Confirmation Page Styles */
+.thank-you-section {
+  padding: 4rem 7%;
+  background: linear-gradient(135deg, #fff8ee 0%, #f4f8fb 100%);
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thank-you-card {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 3.5rem 3rem;
+  max-width: 780px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(20, 38, 59, 0.08);
+}
+
+.thank-you-badge {
+  width: 72px;
+  height: 72px;
+  background: #eaf5f1;
+  color: #1b7a5a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.thank-you-badge svg {
+  width: 40px;
+  height: 40px;
+  fill: currentColor;
+}
+
+.thank-you-card h1 {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  color: var(--ink);
+  margin: 0 0 0.8rem;
+}
+
+.thank-you-lead {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 580px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.context-box {
+  background: var(--cream);
+  border: 1px solid #f0d4b9;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: left;
+}
+
+.context-item label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--orange-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.context-item span {
+  font-weight: 800;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.next-steps-container {
+  margin: 2.5rem 0;
+  text-align: left;
+}
+
+.next-steps-container h3 {
+  font-size: 1.2rem;
+  color: var(--ink);
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.next-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.next-step-item {
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.2rem;
+}
+
+.next-step-num {
+  font-weight: 900;
+  color: var(--orange);
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.next-step-item h4 {
+  margin: 0 0 0.3rem;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.next-step-item p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.thank-you-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+@media (max-width: 650px) {
+  .thank-you-card {
+    padding: 2rem 1.5rem;
+  }
+  .context-box {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+  .next-steps-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
