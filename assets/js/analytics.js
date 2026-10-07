@@ -1,7 +1,2 @@
-// Google tag setup
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag("js", new Date());
-gtag("config", "AW-18336418868");
+// Google tag setup removed
+

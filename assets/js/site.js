@@ -52,12 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "Thank you! Your request has been recorded. An UrbanFix representative will call you shortly.";
         }
 
-        if (typeof gtag === "function") {
-          gtag("event", "generate_lead", {
-            form_name: f.getAttribute("data-track-form") || "service_callback",
-            service: f.elements.service ? f.elements.service.value : "Air conditioner",
-          });
-        }
 
         const redirectUrl = f.getAttribute("data-redirect");
         if (redirectUrl) {
